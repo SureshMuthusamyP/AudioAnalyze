@@ -8,6 +8,13 @@ import warnings
 import numpy as np
 import zipfile
 import plotly.graph_objects as go
+from dotenv import load_dotenv
+load_dotenv()
+
+
+
+API_KEY = os.getenv("Chat_api")
+
 
 warnings.filterwarnings("ignore")
 
@@ -16,7 +23,7 @@ p = process()
 
 class Processor:
     def __init__(self):
-        self.vb = VoiceBot(api_key="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")
+        self.vb = VoiceBot(api_key= API_KEY)
 
     def transcribe_audio(self, audio_file_path):
         transcript = self.vb.transcribe(audio_file_path)
