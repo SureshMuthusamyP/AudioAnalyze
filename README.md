@@ -32,3 +32,10 @@ Setup
 Install the required dependencies using pip install -r requirements.txt.
 Obtain an API key for the voice recognition API and the OpenAI API.
 Set up environment variables for the API keys in a .env file.
+
+
+
+
+Audi Analyze Portal deployed on streamlit Cloud:https://audioanalyze.streamlit.app/
+Feedback portal deployed:https://feedbackapp.streamlit.app/
+Customer Feedback retrieval Portal:https://analyzesms.streamlit.app/
