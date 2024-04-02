@@ -1,0 +1,8 @@
+streamlit
+lyzr
+pydub
+librosa
+plotly
+requests
+python-dotenv
+os
