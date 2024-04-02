@@ -5,5 +5,4 @@ librosa
 plotly
 requests
 python-dotenv
-os
 matplotlib
