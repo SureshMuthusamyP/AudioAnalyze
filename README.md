@@ -17,8 +17,8 @@ This application is designed for analyzing audio files to extract various metric
 
 ## Usage
 1. Upload a ZIP file containing audio files.
-2. The application will process each audio file individually and display the results.
-3. Results include transcription, classification, silence ratio, error rate, FCR percentage, resolution rate percentage, call transfer rate, call abandonment rate, call duration statistics, and overcall rate calculation.
+2. The application will process each audio file individually  and display the results.
+4. Results include transcription, classification, silence ratio, error rate, FCR percentage, resolution rate percentage, call transfer rate, call abandonment rate, call duration statistics, and overcall rate calculation.
 
 ## Dependencies
 - streamlit: For building the web application interface.
